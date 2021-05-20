@@ -1,0 +1,40 @@
+/* The base of every button */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #000;
+  border-color: #000;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/* Additional styles for "Previous" */
+.btn-previous {
+  background-color: #fff;
+  border-color: #000;
+}
+
+.btn-previous:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+} 
+  
+/* Additional styles for "Next" */
+.btn-next {
+  background-color: #fff;
+  border-color: #000;
+}
+
+.btn-next:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
